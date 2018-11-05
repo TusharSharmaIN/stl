@@ -2,3 +2,4 @@
 #include "Heap.cpp"
 #include "Sort.cpp"
 #include "Partition.cpp"
+#include "Permutation.cpp"
