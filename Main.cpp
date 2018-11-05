@@ -1,6 +1,8 @@
 #include <iostream>
 #include <vector>
 #include <algorithm>
+#include <random>
+#include <chrono>
 using namespace std;
 
 #include "Header.h"
@@ -22,7 +24,9 @@ int main()
 
 //	testSort(vect);
 
-	testPartition(vect);
+//	testPartition(vect);
+
+//	testPermutation(vect);
 	
 	return 0;	
 }
