@@ -30,3 +30,34 @@ void print(T &val)
 	cout<<"\n";
 }
 
+/*
+ *	is odd checker	
+ *	@template T
+ *	@param T a container
+ *	@return true if odd
+ */
+struct isOdd
+{
+	template <typename T>
+	bool operator()(const T& a) const
+	{
+		return (a%2 == 1);
+	}
+};
+
+/*
+ *	print some element of a container
+ *	@template typename Iterator
+ *	@param first first iterator
+ *	@param second second iterator
+ *	@return void
+ */
+template <typename Iterator>
+void printSome(Iterator iter, Iterator iter2)
+{
+    for (Iterator it = iter; it != iter2; ++it) 
+	{
+        cout<<*it<<" ";
+    }
+	cout<<"\n";
+}
