@@ -1,3 +1,6 @@
+//seed for random iterator
+unsigned seed = chrono::system_clock::now().time_since_epoch().count();
+
 /*
  *	comperator to generate min heap
  *	@template typename T
