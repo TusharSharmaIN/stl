@@ -3,3 +3,4 @@
 #include "Sort.cpp"
 #include "Partition.cpp"
 #include "Permutation.cpp"
+#include "Secret_Runs.cpp"
