@@ -27,6 +27,9 @@ int main()
 //	testPartition(vect);
 
 //	testPermutation(vect);
-	
+
+//	testSecretRuns(vect);
+
+		
 	return 0;	
 }
